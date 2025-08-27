@@ -1,0 +1,69 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+header{
+height: 45px;
+}
+header nav ul{
+display: flex;
+margin-left: 80%;
+list-style: none;
+}
+
+header nav ul li{
+padding-left: 10%;
+}
+
+header a{
+text-decoration: none;
+color: brown;
+
+}
+
+section{
+height: 100vh;
+border: 1px solid grey;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.Container{
+margin-top: 10%;
+}
+
+.Container img{
+height: 300px;
+border-radius: 50%;
+}
+
+.Container h2{
+margin-top: 2%;
+font-size: 3em;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, verdana, sans-serif;
+}
+.Container p, ul{
+margin-top: 2%;
+font-size: 1.5rem;
+}
+
+footer {
+line-height: 40px;
+display: flex;
+justify-content: center;
+}
+#intro {
+background-image: url(C:\Users\DOVE\Pictures\img101.png);
+background-repeat: round;
+}
+#about{
+background-color: bisque;
+}
+#contact{
+background-color: blanchedalmond;
+
+
+
+
